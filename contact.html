@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AI Palette</title>
+    <meta name="description" content="Get in touch with the AI Palette team for questions, feedback, or support">
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/index.html">
+                    <i class="fas fa-palette"></i>
+                    <span>Prompt Palette</span>
+                </a>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="/index.html">Home</a>
+                <a href="/features.html">Features</a>
+                <a href="/about.html">About Us</a>
+                <a href="/contact.html" class="active">Contact Us</a>
+                
+            </nav>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <i class="fas fa-palette"></i>
+                <span>Prompt Palette</span>
+            </div>
+            <button class="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/features.html">Features</a>
+            <a href="/about.html">About Us</a>
+            <a href="/contact.html" class="active">Contact Us</a>
+            <button class="btn btn-primary">Get Started</button>
+        </nav>
+    </div>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Have questions or feedback? We'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>contact@promptpalette.com</p>
+                                <p>support@promptpalette.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>+91 942-123-4567</p>
+                                <p>Mon-Fri: 9AM - 5PM EST</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Address</h3>
+                                <p>123 AI Innovation Street</p>
+                                <p>Tech City, CSMT(MUMBAI) 400100</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-box">
+                            <h3>Frequently Asked Questions</h3>
+                            <div class="faq-item">
+                                <h4>How quickly will I receive a response?</h4>
+                                <p>We typically respond to all inquiries within 24-48 hours during business days.</p>
+                            </div>
+                            <div class="faq-item">
+                                <h4>Do you offer technical support?</h4>
+                                <p>Yes, our technical team is available to help with any issues you may encounter.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form id="contact-form" class="contact-form" method="POST" action="/contact">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <i class="fas fa-palette"></i>
+                        <span>Prompt Palette</span>
+                    </a>
+                    <p>&copy; <span id="current-year"></span> Prompt Palette. All rights reserved.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="features.html">Features</a>
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact Us</a>
+                    </nav>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

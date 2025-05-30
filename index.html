@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Palette - Advanced Image Generation</title>
+    <meta name="description" content="Transform your ideas into stunning visuals with our AI image generation tool">
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/index.html">
+                    <i class="fas fa-palette"></i>
+                    <span>Prompt Palette</span>
+                </a>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="/index.html" class="active">Home</a>
+                <a href="/features.html">Features</a>
+                <a href="/about.html">About Us</a>
+                <a href="/contact.html">Contact Us</a>
+                <button class="btn btn-primary" onclick="openChatbot()">Help</button>
+
+            </nav>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <i class="fas fa-palette"></i>
+                <span>Prompt Palette</span>
+            </div>
+            <button class="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="/index.html" class="active">Home</a>
+            <a href="/features.html">Features</a>
+            <a href="/about.html">About Us</a>
+            <a href="/contact.html">Contact Us</a>
+          
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="gradient-text">Prompt Palette</h1>
+                    <p>Transform your ideas into stunning visuals with our advanced AI image generation tool.
+                       Create unique artwork, illustrations, and designs with just a few words.</p>
+                    <div class="hero-buttons">
+                        <a href="#generate">
+                            <button class="btn btn-gradient">
+                                Generate Now
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Tool Components -->
+        <section class="ai-tools">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Powerful AI Image Generation</h2>
+                    <p>Our state-of-the-art AI models can generate high-quality images from text descriptions,
+                       edit existing images, or create variations of your favorite pictures.</p>
+                </div>
+                
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-wand-magic-sparkles"></i>
+                        </div>
+                        <h3>Text-to-Image</h3>
+                        <p>Transform your text descriptions into stunning visual content with our AI.</p>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Style Transfer</h3>
+                        <p>Apply artistic styles to images with your ideas and with our advanced style transfer technology.</p>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <h3>Image Variations</h3>
+                        <p>Create multiple variations of your images with different styles and compositions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Type Cards -->
+        <section class="image-types">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Explore Image Types</h2>
+                    <p>Discover the various types of images you can create with AI Palette.</p>
+                </div>
+                
+                <div class="image-types-grid">
+                    <div class="image-type-card">
+                        <div class="image-type-img">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/036/713/679/small/ai-generated-beautiful-woman-with-brown-hair-and-a-confident-elegant-gaze-generated-by-ai-free-photo.jpg" alt="Artistic Portraits">
+                        </div>
+                        <div class="image-type-content">
+                            <h3>Artistic Portraits</h3>
+                            <p>Transform photos into stunning artistic portraits with various styles and effects.</p>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="image-type-card">
+                        <div class="image-type-img">
+                            <img src="https://w0.peakpx.com/wallpaper/521/499/HD-wallpaper-artwork-midjourney-ai-ai-generated-nature-landscape-mountains-resolution.jpg" alt="Landscape Generation">
+                        </div>
+                        <div class="image-type-content">
+                            <h3>Landscape Generation</h3>
+                            <p>Create breathtaking landscapes from simple text descriptions.</p>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="image-type-card">
+                        <div class="image-type-img">
+                            <img src="https://magazine.alumni.ubc.ca/sites/default/files/2023-09/AIart-1920x1080.jpg" alt="Abstract Art">
+                        </div>
+                        <div class="image-type-content">
+                            <h3>Abstract Art</h3>
+                            <p>Generate unique abstract art pieces for decoration or inspiration.</p>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="image-type-card">
+                        <div class="image-type-img">
+                            <img src="https://as1.ftcdn.net/jpg/05/55/35/94/1000_F_555359422_ez5NnXT6Ux77MDCejVwmnm3HGv8WClp6.jpg" alt="Character Design">
+                        </div>
+                        <div class="image-type-content">
+                            <h3>Character Design</h3>
+                            <p>Design unique characters for games, stories, or other creative projects.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Generation Interface -->
+        <section class="image-generator" id="generate">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Create Your Own Image</h2>
+                    <p>Describe what you want to see, and our AI will bring it to life.</p>
+                </div>
+
+                <div class="generator-container">
+                    <form id="image-form" action="/" method="post">
+                        <div class="prompt-input">
+                            <label for="prompt">Describe the image you want to generate</label>
+                            <div class="input-group">
+                                <input type="text" id="prompt" name="prompt" placeholder="E.g., A futuristic city with flying cars and neon lights" required>
+                                <button class="btn btn-primary" type="submit" id="generate-btn">Generate</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="generated-image-container" id="image-result" style="display: none;">
+                        <div class="generated-image">
+                            <img id="generated-img" src="" alt="Generated image">
+                            <div class="loading-overlay" id="loading-overlay"></div>
+                        </div>
+                        <div class="image-actions">
+                            <button class="btn btn-outline" id="regenerate-btn">Regenerate</button>
+                            <button class="btn btn-primary" id="save-btn">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="/index.html">
+                        <i class="fas fa-palette"></i>
+                        <span>Prompt Palette</span>
+                    </a>
+                    <p>&copy; <span id="current-year"></span> AI Palette. All rights reserved.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <nav>
+                        <a href="/index.html">Home</a>
+                        <a href="/features.html">Features</a>
+                        <a href="/about.html">About Us</a>
+                        <a href="/contact.html">Contact Us</a>
+                    </nav>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
